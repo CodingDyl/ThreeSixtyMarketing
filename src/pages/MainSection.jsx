@@ -1,12 +1,12 @@
 import React from 'react'
-import { Hero } from '../components/Hero'
-import { NavbarComp } from '../components/Navbar'
+import Navbar from '../components/Navbar'
+import { MainHero } from '../components/MainHero'
 
 const MainSection = () => {
   return (
     <>
-        <NavbarComp />
-        <Hero />
+        <Navbar />
+        <MainHero />
     </>
   )
 }

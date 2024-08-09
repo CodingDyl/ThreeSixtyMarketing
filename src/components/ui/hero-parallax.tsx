@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import { Img } from "react-image";
 import { Link } from "react-router-dom";
+import { Review } from "../Review";
 
 export const HeroParallax = ({
   products,
@@ -57,7 +58,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="min-h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -108,9 +109,9 @@ export const Header = () => {
         Three Sixty <br /> Marketing
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200 bg-transparent">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+        We craft compelling marketing strategies using cutting-edge tools and methodologies. 
+        Our team of dedicated marketers and creatives is passionate about delivering 
+        exceptional campaigns that captivate audiences and drive results.
       </p>
     </div>
   );
